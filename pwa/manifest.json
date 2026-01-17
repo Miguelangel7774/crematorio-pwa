@@ -1,0 +1,8 @@
+{
+  "name": "Eterno Amor",
+  "short_name": "Crematorio",
+  "start_url": "/frontend/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6b4eff"
+}
