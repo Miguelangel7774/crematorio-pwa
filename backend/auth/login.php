@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../config/db.php';
+require 'C:\crematorio-pwa2026\crematorio-pwa/compass-connections-joson';
 
 $data = json_decode(file_get_contents("php://input"), true);
 

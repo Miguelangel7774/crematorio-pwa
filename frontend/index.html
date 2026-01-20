@@ -10,3 +10,31 @@
   <p>Citas y servicios funerarios para mascotas</p>
 </body>
 </html>
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Solicitar Cita - Eterno Amor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Agendar Cita - Crematorio de Mascotas Eterno Amor</h1>
+    <form id="form">
+      <input name="nombre" placeholder="Nombre del dueño" required>
+      <input name="telefono" placeholder="Teléfono" required>
+      <input name="email" type="email" placeholder="Correo" required>
+      <input name="fecha" type="datetime-local" required>
+      <select name="servicio">
+        <option value="cremacion_individual">Cremación Individual</option>
+        <option value="cremacion_comunitaria">Cremación Comunitaria</option>
+      </select>
+      <textarea name="observaciones" placeholder="Observaciones"></textarea>
+      <button type="submit">Enviar Solicitud</button>
+    </form>
+    <div id="result"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
